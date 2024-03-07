@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "983242581075",
+    "project_id": "sakina-4e828",
+    "storage_bucket": "sakina-4e828.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983242581075:android:f1ee4dbe1d0293e8ee52a6",
+        "android_client_info": {
+          "package_name": "com.example.traveling"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCa0MBRTVOAGSc6Rf3LIa2dHJCGLdkmqWI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
