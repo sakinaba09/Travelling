@@ -1,4 +1,6 @@
 import 'package:bot_toast/bot_toast.dart';
+import 'package:traveling/ui/views/main_view/home_view/home_view.dart';
+import 'package:traveling/ui/views/main_view/main_view.dart';
 import 'package:traveling/ui/views/signup_view/signup_view.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -31,7 +33,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: SignUpView(),
+        home: MainView(),
       ),
     );
   }
