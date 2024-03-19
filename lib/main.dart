@@ -1,4 +1,3 @@
-import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:traveling/core/data/repository/post_repository.dart';
 import 'package:traveling/core/data/repository/prodcut_repository.dart';
 import 'package:traveling/core/data/repository/shared_prefrence_repository.dart';
@@ -21,8 +20,8 @@ Future<void> main() async {
     return prefs;
   });
 
-  Get.put(ConnectivityService());
-  Get.put(Connectivity());
+  // Get.put(ConnectivityService());
+  // Get.put(Connectivity());
 
   runApp( MyApp());
 }

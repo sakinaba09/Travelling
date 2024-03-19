@@ -1,4 +1,3 @@
-import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:traveling/core/data/repository/post_repository.dart';
 import 'package:traveling/core/data/repository/prodcut_repository.dart';
 import 'package:traveling/core/data/repository/shared_prefrence_repository.dart';
@@ -37,6 +36,6 @@ double screenHeight(double percent) {
 }
 SharedPrefrenceRepository get storege => Get.find<SharedPrefrenceRepository>();
 PostRepository get post => Get.find<PostRepository>();
-ConnectivityService get connectivityService => Get.find<ConnectivityService>();
-Connectivity get connectivity => Get.find<Connectivity>();
+// ConnectivityService get connectivityService => Get.find<ConnectivityService>();
+// Connectivity get connectivity => Get.find<Connectivity>();
 ProductRepository get productRepository => Get.find<ProductRepository>();

@@ -64,7 +64,8 @@ class SearchViewOneWay extends StatelessWidget {
                             ),
                             child: Center(child: InkWell(
                               onTap: () {
-                                Get.off(SearchViewRoundTrip());
+                                Get.off
+                                (SearchViewRoundTrip());
                               },
                               child: Text('Round_trip', style: TextStyle(
                                 fontWeight: FontWeight.w700,
@@ -111,8 +112,8 @@ class SearchViewOneWay extends StatelessWidget {
                       child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      CustomSearchContainer(widthPercent: 2.5, heightPercent: 7, boldtext: '1 Adults ', icon:Icons.people , text: 'passengers',IconColor: AppColors.IconPurpleColor,),
-                      CustomSearchContainer(widthPercent: 2.5, heightPercent: 7, boldtext: '0 Childern', icon: Icons.people  , text: 'passengers',IconColor: AppColors.IconPurpleColor,),
+                      CustomSearchContainer(widthPercent: 2.5, heightPercent: 7, boldtext: '1 Adults ', icon:Icons.groups , text: 'passengers',IconColor: AppColors.IconPurpleColor,),
+                      CustomSearchContainer(widthPercent: 2.5, heightPercent: 7, boldtext: '0 Childern', icon: Icons.groups  , text: 'passengers',IconColor: AppColors.IconPurpleColor,),
                     ],
                    ),
                  ),

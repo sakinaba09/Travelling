@@ -48,7 +48,7 @@ class _MainViewState extends State<MainView> {
          SearchViewOneWay(
           
          ),
-         ProfileView(),
+         TravellerDetailsView1(),
           ]),
    
     )

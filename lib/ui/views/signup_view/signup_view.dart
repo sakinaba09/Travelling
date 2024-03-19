@@ -6,6 +6,7 @@ import 'package:traveling/ui/shared/custom_widgets/custom_image.dart';
 import 'package:traveling/ui/shared/custom_widgets/custom_textfiled.dart';
 import 'package:traveling/ui/shared/custom_widgets/custom_textgray.dart';
 import 'package:traveling/ui/shared/utils.dart';
+import 'package:traveling/ui/views/main_view/main_view.dart';
 import 'package:traveling/ui/views/signin_view/signin_view.dart';
 
 class SignUpView extends StatelessWidget {
@@ -50,7 +51,11 @@ class SignUpView extends StatelessWidget {
                 ),
                 SizedBox(height: screenWidth(15),),
           
-                CustomButton(text: 'Sign Up', widthPercent: 1.1, heightPercent: 15, textColor: AppColors.backgroundgrayColor,),
+                InkWell(
+                  onTap: () {
+                        Get.to(MainView());
+                      },
+                  child: CustomButton(text: 'Sign Up', widthPercent: 1.1, heightPercent: 15, textColor: AppColors.backgroundgrayColor,)),
                 SizedBox(height: screenHeight(20),),
                 Center(
                  child: CustomTextGray(mainText: 'or continue with ',),

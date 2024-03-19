@@ -3,12 +3,15 @@ import 'package:traveling/ui/shared/colors.dart';
 import 'package:traveling/ui/shared/utils.dart';
 
 class CustomTextField extends StatefulWidget {
-  final IconData ? prefIcon;
-  final Color? colorIcon;
-  final String? hintText;
+  final IconData  prefIcon;
+  final IconData?  suffIcon;
+  final Color colorIcon;
+  final Color? suffColor;
+  final String hintText;
     final double? maxHeight;
   final double? maxWidth;
-  const CustomTextField({super.key, this.prefIcon, this.colorIcon, this.hintText, this.maxHeight, this.maxWidth});
+  
+  const CustomTextField({super.key, required this.prefIcon, required this.colorIcon, required this.hintText, this.maxHeight, this.maxWidth, this.suffIcon, this.suffColor});
 
   @override
   State<CustomTextField> createState() => _CustomTextFieldState();
@@ -36,7 +39,10 @@ class _CustomTextFieldState extends State<CustomTextField> {
           borderRadius: BorderRadius.circular(20),
           borderSide: BorderSide.none,
         ),      
-    
+    suffixIcon:widget.suffIcon!=null? Icon(
+      widget.suffIcon,
+      color:widget. suffColor,
+    ):SizedBox() ,
         prefixIcon:   widget.prefIcon != null
               ? Icon(
                  widget. prefIcon,

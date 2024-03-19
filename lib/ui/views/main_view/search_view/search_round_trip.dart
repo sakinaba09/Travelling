@@ -110,8 +110,8 @@ class SearchViewRoundTrip extends StatelessWidget {
                       child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      CustomSearchContainer(widthPercent: 2.5, heightPercent: 7, boldtext: '1 Adults ', icon:Icons.people , text: 'passengers',IconColor: AppColors.IconPurpleColor,),
-                      CustomSearchContainer(widthPercent: 2.5, heightPercent: 7, boldtext: '0 Childern', icon: Icons.people  , text: 'passengers',IconColor: AppColors.IconPurpleColor,),
+                      CustomSearchContainer(widthPercent: 2.5, heightPercent: 7, boldtext: '1 Adults ', icon:Icons.groups , text: 'passengers',IconColor: AppColors.IconPurpleColor,),
+                      CustomSearchContainer(widthPercent: 2.5, heightPercent: 7, boldtext: '0 Childern', icon: Icons.groups  , text: 'passengers',IconColor: AppColors.IconPurpleColor,),
                     ],
                    ),
                  ),

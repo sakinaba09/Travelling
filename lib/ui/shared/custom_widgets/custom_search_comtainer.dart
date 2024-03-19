@@ -12,7 +12,7 @@ class CustomSearchContainer extends StatelessWidget {
    required this.IconColor});
   final double widthPercent;
   final double heightPercent;
-   final IconData icon;
+   final IconData? icon;
    final String text;
    final String boldtext;
    final Color IconColor;

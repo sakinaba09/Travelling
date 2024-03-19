@@ -44,7 +44,6 @@ dependencies:
   http: ^1.1.0
   dartz: ^0.10.1
   get: ^4.6.5
-  connectivity_plus: 
   provider: ^6.1.1
   cached_network_image: ^3.3.0
   flutter_rating_bar: ^4.0.1
